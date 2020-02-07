@@ -11,10 +11,11 @@ class BandInput extends Component {
 
   // }
 
-  const handleOnChange= (event)=>{
-    this. event.target.value
-    
-  }
+   handleOnChange(event){
+    this.setState(
+      name: event.target.value
+    )
+    }
   
   render() {
     return (
