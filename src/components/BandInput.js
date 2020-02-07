@@ -1,14 +1,31 @@
 // Add BandInput component
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class BandInput extends Component {
+  
+  this.state = {
+    name: ''
+  }
+
+  // const handleOnSubmit = () =>{
+
+  // }
+
+  const handleOnChange= (event)=>{
+    let value = event.target.value
+    
+  }
+  
   render() {
-    return(
+    return (
       <div>
-        Band Input
+        <form >
+          <input type= 'text' onChange={this.handleOnChange}></input>
+          <input type='submit'></input>
+        </form>
       </div>
-    )
+    );
   }
 }
 
-export default BandInput
+export default BandInput;
