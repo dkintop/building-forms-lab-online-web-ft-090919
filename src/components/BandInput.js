@@ -12,7 +12,7 @@ class BandInput extends Component {
   // }
 
   const handleOnChange= (event)=>{
-    let value = event.target.value
+    this. event.target.value
     
   }
   
